@@ -1,0 +1,9 @@
+language: python
+python:
+  - "3.8"
+install:
+  - pip install -r requirements.txt  # Add this if you have any external dependencies
+script:
+  - python github_api.py  # Adjust this command if your script has a different filename
+install:
+  - pip install requests==2.26.0  # Replace with your actual dependencies and versions
